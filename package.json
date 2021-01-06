@@ -27,5 +27,11 @@
       "buildResources": "public"
     },
     "target" : "zip"
-  }
+  },
+  "extraFiles": [
+    {
+      "from": "./hello.exe",
+      "to": "."
+    }
+  ]
 }
